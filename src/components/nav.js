@@ -11,12 +11,12 @@ export default function Nav() {
         />
         stage.ma
       </div>
-      <ul className="flex  justify-around items-center w-[50%]">
+      <ul className="flex  justify-around items-center w-[50%] nav-options">
         {["home", "explore", "profile", "about us"].map((item, ind) => (
           <li
             className={`${
               ind === 0 && "active"
-            } cursor-pointer select-none opacity-70 p-[10px] inline-block`}
+            } cursor-pointer select-none opacity-50 p-[10px] inline-block`}
           >
             {item}
           </li>

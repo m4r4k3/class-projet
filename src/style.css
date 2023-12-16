@@ -2,27 +2,43 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-li.active{
-    opacity: 1;
+li.active {
+  opacity: 1;
 }
-section{
-    background:
-        linear-gradient(#031D40, transparent), 
-        url(https://assets.weforum.org/article/image/responsive_big_webp_v2gQQH6Qq5EAJSemo1Yqie27aYBOHE4pSwA6jSkFHKg.webp)
-  }
 
-  .t3d{
-    text-shadow: 
-    0 1px 0 #ccc, 
-    0 2px 0 #acacac,
-    0 3px 0 #a0a0a0,
-    0 4px 0 #9b9a9a,
-    0 5px 0 #888787
-  }
-  
+section {
+  background:
+    linear-gradient(#031D40, transparent),
+    url(https://assets.weforum.org/article/image/responsive_big_webp_v2gQQH6Qq5EAJSemo1Yqie27aYBOHE4pSwA6jSkFHKg.webp)
+}
+
+.slogan div:first-child {
+  text-shadow:
+    0 -1px 0 #ccc,
+    0 -2px 0 #acacac,
+    0 -3px 0 #a0a0a0,
+    0 -4px 0 #9b9a9a,
+    0 -5px 0 #888787;
+}
+
+.slogan div:last-child {
+  text-shadow:
+    0 -1px 0 #072a57,
+    0 -2px 0 #051933,
+    0 -3px 0 #08346d,
+    0 -4px 0 #031329,
+    0 -5px 0 #021329;
+}
+
+.nav-options li:hover:not(li.active) {
+  transition: 500ms ease-out;
+  opacity: 1;
+  text-shadow:
+    0 0 10px #eeeeee;
+}
