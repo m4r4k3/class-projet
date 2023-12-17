@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import "./style.css" ;
 
 export default function Home() {
   const [sloganStyle, setSloganStyle] = useState({

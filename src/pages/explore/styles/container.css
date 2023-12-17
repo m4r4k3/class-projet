@@ -1,0 +1,50 @@
+.container{
+  width: 800px;
+  margin: auto;
+  height: calc(100vh - 70px);
+  background-color: var(--whitegray);
+}
+
+.content{
+  background-color: var(--white);
+}
+
+.settings{
+  background-color: var(--whitegray);
+}
+
+.settings button{
+  background-color: var(--white);
+  border: 0;
+  padding: 10px;
+  border: 1px solid var(--gray);
+  cursor: pointer;
+  opacity: .6;
+}
+
+.settings button.active{
+  opacity: 1;
+}
+
+.settings button{
+  border-radius: 10px 10px 0 0;
+}
+
+.boxes{
+  padding: 10px 20px;
+}
+
+.box{
+  margin-top: 5px;
+  border: 1px solid var(--gray);
+  border-radius: 3px;
+  padding: 5px 10px;
+}
+
+.box a{
+  color: inherit;
+}
+
+.box a{
+  text-decoration: none;
+}

@@ -1,0 +1,28 @@
+{
+  "demandes_emploi": [
+    {
+      "id": 1,
+      "titre": "Développeur Front-end",
+      "brève_description": "Conception et développement d'interfaces utilisateur modernes.",
+      "longue_description": "Nous recherchons un développeur Front-end créatif et compétent pour rejoindre notre équipe. Vous serez responsable de la conception et du développement d'interfaces utilisateur modernes, en utilisant des technologies telles que HTML, CSS et JavaScript. Si vous avez une passion pour la création d'expériences utilisateur exceptionnelles, postulez dès maintenant.",
+      "date_ajout": "2023-03-01",
+      "salaire": 65000
+    },
+    {
+      "id": 2,
+      "titre": "Analyste de Données",
+      "brève_description": "Analyse approfondie des données pour prendre des décisions éclairées.",
+      "longue_description": "Nous cherchons un analyste de données expérimenté pour rejoindre notre équipe. En tant qu'analyste, vous serez chargé de collecter, analyser et interpréter les données pour aider l'entreprise à prendre des décisions éclairées. Si vous avez des compétences analytiques solides et une passion pour les données, postulez dès maintenant.",
+      "date_ajout": "2023-03-05",
+      "salaire": 75000
+    },
+    {
+      "id": 10,
+      "titre": "Ingénieur DevOps",
+      "brève_description": "Optimisation des processus de développement et de déploiement.",
+      "longue_description": "Nous sommes à la recherche d'un ingénieur DevOps talentueux pour améliorer l'efficacité de nos processus de développement et de déploiement. En collaborant avec les équipes de développement et d'exploitation, vous contribuerez à automatiser les tâches, à garantir la stabilité du système et à accélérer les cycles de développement. Rejoignez-nous si vous êtes passionné par la collaboration entre le développement et les opérations.",
+      "date_ajout": "2023-03-20",
+      "salaire": 80000
+    }
+  ]
+}

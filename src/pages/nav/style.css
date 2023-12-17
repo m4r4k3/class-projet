@@ -1,0 +1,12 @@
+
+.nav-options Link:hover:not(li.active) {
+    transition: 500ms ease-out;
+    opacity: 1;
+    text-shadow:
+      0 0 10px #eeeeee;
+  }
+
+  .active {
+    opacity: 1;
+  }
+  

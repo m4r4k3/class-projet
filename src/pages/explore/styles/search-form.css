@@ -1,0 +1,56 @@
+.content > *:not(.settings){
+  border-left: 1px solid var(--gray);
+}
+
+.search-form{
+  padding: 10px 30px;
+}
+
+.search-form .fields{
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+
+.search-form select{
+  border: 1px solid gray;
+  width: 150px;
+  height: 30px;
+  outline: 0;
+}
+
+.search-form .btns{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center; 
+  gap: 5px;
+}
+
+.search-form select:focus, .search-form input:focus{
+  border-color: var(--black);
+}
+
+.search-form button{
+  padding: 6px;
+  border: 0px;
+  color: var(--white);
+  cursor: pointer;
+  transition: .4s;
+}
+
+.search-form button#submit{
+  background-color: var(--green);
+}
+
+.search-form button:hover#submit{
+  background-color: green;
+}
+
+.search-form button:hover#reset{
+  background-color: red;
+}
+
+.search-form button#reset{
+  background-color: var(--red);
+}
+
